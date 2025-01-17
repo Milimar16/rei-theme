@@ -8,6 +8,7 @@ body {
 	--toggle-radius: 0px;
 	--toggle-thumb-radius: 0px;
 	--slider-thumb-radius: 0px;
+  --font-text-theme: Cousine Nerd Font, monospace;
 }
 
 .workspace-tab-header.is-active::before, .workspace-tab-header.is-active::after {
@@ -31,4 +32,17 @@ svg * {
 
 .menu-separator {
 	margin: var(--size-2-1) calc(var(--size-2-1) * -1);
+}
+
+.theme-dark {
+  --background-primary: #191116;
+  --background-secondary: #241F23;
+  --accent-h 235;
+  --accent-s 21%;
+  --accent-l 68%;
+}
+
+.theme-light {
+  --background-primary: #54484D;
+  --background-secondary: #6F6368;
 }
